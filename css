@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+/*__________header_______________*/
+
+#header-background {
+    color: white;
+    height: 80px;
+    margin-bottom: 400px;
+    width: 100%;
+    margin-left: -5px;
+    margin-top: -8px;
+    position: absolute;
+    background-color: rgb(46, 46, 46);
+}
+/*__________botoes_header_________*/
+
+.botoes-header {
+    color: white;
+    position: absolute;
+    text-decoration: none;
+}
+.botoes-header:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+#btn-sobremim {
+    font-size: 20px;
+    margin-left: 16%;
+    margin-top: -48px;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#btn-cnh {
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 26%;
+    margin-top: -49px;
+    font-size: 16px;
+}
+
+#titulo-header {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    margin-left: 2%;
+}
+
+ion-icon {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -14px;
+    font-size: 40px;
+}
+
+#sidenav {
+    color: white;    
+    position: absolute;
+    margin-top: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Rubik:wght@500&display=swap');
